@@ -1,0 +1,62 @@
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.schedule-table th, 
+.schedule-table td {
+  border: 1px solid var(--border-color);
+  padding: 1rem;
+  text-align: center;
+}
+
+.schedule-table th {
+  background: #f8fafc;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.time-col {
+  background: #f8fafc;
+  font-weight: 600;
+  width: 140px;
+  color: var(--text-muted);
+}
+
+.class-cell {
+  transition: var(--transition);
+}
+
+.class-cell:hover {
+  filter: brightness(0.95);
+  transform: scale(1.02);
+  cursor: default;
+}
+
+.class-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  color: #1f2937;
+}
+
+.class-prof {
+  font-size: 0.8rem;
+  color: #4b5563;
+}
+
+/* Beautiful pastel colors based exactly on the image */
+.bg-robotica { background-color: #fdf6b2; } /* yellow */
+.bg-mineria { background-color: #bbf7d0; } /* green-yellow */
+.bg-ingles { background-color: #a5f3fc; } /* cyan */
+.bg-progweb { background-color: #fcd34d; } /* orange-yellow */
+.bg-seguridad { background-color: #86efac; } /* solid green */
+.bg-bigdata { background-color: #d1fae5; } /* lighter green */
