@@ -4,21 +4,21 @@ const linksData = [
   {
     title: 'ULagos Virtual',
     description: 'Accede al entorno virtual de aprendizaje institucional.',
-    url: 'https://ulagosvirtual.cl',
+    url: 'https://www.ulagosvirtual.cl/',
     icon: '💻',
     color: '#3b82f6'
   },
   {
     title: 'Sistema de Asistencia',
     description: 'Registra y revisa tu asistencia a las clases.',
-    url: 'https://asistencia.ulagos.cl',
+    url: 'https://asistencia.ulagos.cl/login/',
     icon: '✅',
     color: '#10b981'
   },
   {
     title: 'Portal de Docencia',
     description: 'Gestión académica, notas y solicitudes estudiantiles.',
-    url: 'https://docencia.ulagos.cl',
+    url: 'https://docencia.ulagos.cl/notas/login.php',
     icon: '📚',
     color: '#8b5cf6'
   }
